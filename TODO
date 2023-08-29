@@ -1,0 +1,14 @@
+This branch is most of the way through a large refactoring with the following purposes:
+1. flat, not nested
+2. code reusability
+3. organization of classes as well as functionality
+
+The following still need to be done for the originally planned portion of the refactoring to be considered complete:
+1. implement signal splitting logic found in DiscordAPI.py to various listeners of dsignals
+2. increase the scope of DiscordUI.py to contain all major ui elements instead of just top level containers
+3. write single handlers for qsignals handlers like guild_selected and channel_selected and place them in DiscordUI.py
+4. get rid of _utils.py lol (optional)
+5. remove type checking imports from discord_app.Registrar
+6. make sure it actually works
+
+The zip file pre-refactoring contains a copy of the branch made towards the beginning of the refactoring in case this is resurrected and needs to be rolled back (good luck)

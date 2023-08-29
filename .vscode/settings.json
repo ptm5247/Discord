@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "css.lint.validProperties": [
+    "spacing",
+    "icon",
+    "icon-size",
+    "image",
+    "image-position",
+    "tooltip",
+    "tooltip-anchor",
+    "tooltip-distance"
+  ]
+}
