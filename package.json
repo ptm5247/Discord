@@ -1,0 +1,27 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "a home for the chunks",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptm5247/Discord.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Paul McDonnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptm5247/Discord/issues"
+  },
+  "homepage": "https://github.com/ptm5247/Discord#readme",
+  "devDependencies": {
+    "electron": "^26.1.0",
+    "htmx.org": "^1.9.5"
+  }
+}

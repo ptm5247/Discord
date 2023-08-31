@@ -1,15 +1,7 @@
 {
   "files.exclude": {
-    "**/__pycache__": true
-  },
-  "css.lint.validProperties": [
-    "spacing",
-    "icon",
-    "icon-size",
-    "image",
-    "image-position",
-    "tooltip",
-    "tooltip-anchor",
-    "tooltip-distance"
-  ]
+    "**/__pycache__": true,
+    "node_modules": true,
+    "package-lock.json": true
+  }
 }

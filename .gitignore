@@ -1,8 +1,1 @@
-__pycache__
-
-discord_app/resources/attachments
-discord_app/resources/cache
-discord_app/resources/emojis
-
-**.env
-**.zip
+node_modules/
